@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "solana-python-poetry"
+version = "1"
+description = "I dont know"
+authors = ["muzammil-git <syedmuzammil67@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.8"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+certifi = "^2024.12.14"
+fastapi = "^0.115.6"
+sqlalchemy = "^2.0.37"
+pip = "^24.3.1"
+asyncpg = "^0.30.0"
+psycopg2-binary = "^2.9.10"
+greenlet = "^3.1.1"
+solana = "^0.36.3"
+solders = "0.23.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
